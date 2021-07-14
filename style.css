@@ -1,0 +1,252 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+    
+}
+/* header start point */
+header{
+    background: #2D25A0;
+    width: 1340px;
+    height: 600px;
+}
+.headerdiv22{
+    display: flex;
+    
+}
+.h124{
+    font-size: 64px;
+    /* width: 485px;
+    height: 170px; */
+    font-weight: 700; 
+    color:darkorange;
+    margin-left: 70px;
+    margin-top: 170px;
+    
+    }
+.banner30{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 62px;
+    overflow: hidden;
+   
+}
+header:hover .banner30{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.fifa25{
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 300px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+/* header end point */
+/* section start point */
+.footballer{
+    
+    margin-left: 20px;
+    
+    
+}
+.all-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    background-color: rgba(220, 220, 220, 0.493);
+    padding: 135px;
+    
+    
+    
+}
+.aboutplayer{
+    width: 300px;
+    height: 444px;
+    border: 1px solid white;
+    
+    background-color: white;
+    
+    margin-top: 27px;
+    padding: 15px;
+    box-shadow: 5px -5px 5px silver, -5px 5px 5px silver, 5px 5px 5px silver, -5px -5px 5px silver;
+}
+.aboutplayer img{
+    width: 300px;
+    height: 240px;
+    
+    
+    
+}
+.aboutplayer p h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 15px;
+    }
+/* section end point  */
+/* extra bonus section start point */
+.container127{
+    display: flex;
+}
+.ranking-table{
+    display: flex;
+}
+.ranking128{
+    width:30%;
+    margin-left: 60px;
+    
+    margin-top: 40px;
+    
+    
+}
+#h1{
+    font-size: 43px;
+    font-weight: 700;
+    color: gold;
+}
+.ranking-table{
+    margin-left: 75px;
+    margin-top:20px ;
+}
+.women-ranking{
+    margin-left: 75px;
+    
+}
+.men-table-main{
+    border-collapse: collapse;
+
+}
+.men-table td,tr{
+    border-bottom:3px solid lightblue;
+    
+    padding: 0 7px;
+    }
+.women-table-main{
+    border-collapse: collapse;
+}    
+.women-table td,tr{
+    border-bottom:3px solid lightskyblue;
+    padding: 0 7px;
+}
+.flag-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ranking-table td{
+    margin: 15px;
+}
+/* extra bonus section end point */
+/* footer starting point */
+footer{
+    text-align: center;
+}
+.logo-img{
+    width: 483.87px;
+    height: 110px;
+   
+
+}
+.social-icons{
+    width: 170px;
+    height:32px;
+    display: flex;
+    margin-left: 550px;
+ 
+
+    
+}
+.icons{
+    
+    width: 100%;
+    display: flex;
+   
+
+    
+}
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 667px) {
+    header{
+        width: 100%;
+        padding: 5px;
+        height: 500px;
+    }
+    .h124{
+        margin: 0 5px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .headerdiv22{
+        display: block;
+        height: auto;
+    }
+    .fifa25{
+        margin: 10px 10px;
+    }
+    .banner30{
+        width: 259px;
+        height: 160px;
+        margin-left: 15px;
+    }
+    .all-player{
+        display: block;
+        padding: 0;
+        margin: auto;
+    }
+    .aboutplayer img{
+        width: 100%;
+    }
+    .aboutplayer{
+        
+        width: 57%;
+        height: 460px;
+    }
+    .container127{
+        display: block;
+    }
+    .ranking128{
+        width: 64%;
+        margin-left: 5px;
+    }
+    .ranking-table{
+        display: block;
+        margin-left: 0;
+        margin: auto;
+    }
+    .women-ranking{
+        margin: 0;
+        width: 64%;
+    }
+    .logo-img{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        width: 68%;
+        
+    }
+    .social-icons{
+        width: 50px;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+
+  }
